@@ -7,7 +7,7 @@ from google.genai import types
 def generate():
     client = genai.Client(
         # api_key=os.environ.get("GEMINI_API_KEY"),
-        api_key = "AIzaSyA2l5Ma_U9deZ7LS9GfcRMaX-1wWkdyrA8",
+        api_key = "",
     )
     files = [
         # Make the file available in local system working directory
