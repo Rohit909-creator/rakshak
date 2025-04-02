@@ -4,7 +4,7 @@
 It's under development as of now.
 
 To run the base code:
-do `pip install google-genai opencv-python tranformers`
+do `pip install google-genai opencv-python transformers`
 
 after that run `UTILS.py`
 then run `GEMINI_tests.py`
