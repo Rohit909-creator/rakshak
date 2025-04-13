@@ -53,7 +53,7 @@ Rakshak is a **Real-Time Pose Tracking Surveillance System** that detects and tr
 
 Run the script to start the surveillance system:
 ```bash
-python main.py
+python test.py
 ```
 
 The system will use your webcam for real-time person detection and pose tracking, assigning a unique ID to each tracked person and displaying pose landmarks on the video feed.
