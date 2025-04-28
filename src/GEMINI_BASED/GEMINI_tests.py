@@ -23,13 +23,13 @@ def generate():
 
     files2 = [
         # Make the file available in local system working directory
-        client.files.upload(file=r"C:\Users\Rohit Francis\Desktop\Codes\AI_Projects\New folder\frames\frame121.jpg"),
+        client.files.upload(file="./frames/frame121.jpg"),
         # Make the file available in local system working directory
-        client.files.upload(file=r"C:\Users\Rohit Francis\Desktop\Codes\AI_Projects\New folder\frames\frame122.jpg"),
+        client.files.upload(file="./frames/frame122.jpg"),
         # Make the file available in local system working directory
-        client.files.upload(file=r"C:\Users\Rohit Francis\Desktop\Codes\AI_Projects\New folder\frames\frame123.jpg"),
+        client.files.upload(file="./frames/frame123.jpg"),
         # Make the file available in local system working directory
-        client.files.upload(file=r"C:\Users\Rohit Francis\Desktop\Codes\AI_Projects\New folder\frames\frame124.jpg"),
+        client.files.upload(file="./frames/frame124.jpg"),
     ]
     
     model = "gemini-2.0-flash"
